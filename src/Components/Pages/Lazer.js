@@ -36,13 +36,6 @@ const Mbutton = styled.button`
    font-family: Arial, Helvetica, sans-serif;
    float: right;
 `
-const Info = styled.button`
-   float: right;
-   width: 6vw;
-   height: 4vh;
-   font-size: 0.8em;
-   font-family: Arial, Helvetica, sans-serif;
-`
 export default function App(){
     let subtitle;
   const [modalIsOpen, setIsOpen] = React.useState(false);
